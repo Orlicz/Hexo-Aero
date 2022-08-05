@@ -16,7 +16,7 @@ body {
 body::before {
     z-index: -1;
     content: '';
-    position: absolute;
+    position: fixed;
     width: 400px;
     height: 400px;
     background: linear-gradient(#ffc107, #e91e63);
@@ -29,7 +29,7 @@ body::before {
 body::after {
     z-index: -1;
     content: '';
-    position: absolute;
+    position: fixed;
     width: 350px;
     height: 350px;
     background: linear-gradient(#2196f3, #31ff38);
