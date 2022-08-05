@@ -19,6 +19,8 @@
 <%- partial('_partial/head') %>
 
   <body>
+    <%- include("index.ejs") %>
+    <%- include("post.ejs") %>
     <%- css('css/aero') %>
       <section>
         <% site.posts.forEach(function(post){ %>
@@ -28,9 +30,6 @@
                 <%- post.title %>
               </a>
             </h3>
-            <h2 class="aero-rank"><small>#</small>
-              <%- post._id %>
-            </h2>
             <!-- <%- post.path %>
             <br />
             <%- post.slug %>
@@ -43,6 +42,7 @@
           </div>
         <% }); %>
       </section>
+    <%- body %>
   </body>
 
   </html>
