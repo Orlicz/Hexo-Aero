@@ -19,8 +19,6 @@
 <%- partial('_partial/head') %>
 
   <body>
-    <%- include("index.ejs") %>
-    <%- include("post.ejs") %>
     <%- css('css/aero') %>
       <section>
         <% site.posts.forEach(function(post){ %>
@@ -42,7 +40,7 @@
           </div>
         <% }); %>
       </section>
-    <%- body %>
+    <%- include("post.ejs") %>
   </body>
 
   </html>
