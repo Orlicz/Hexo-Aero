@@ -103,3 +103,7 @@ body::after {
 .aero-box pre code.hljs{
     border-radius: 4px;
 }
+.aero-box pre code.hljs :hover{
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .2s ease-in-out;
+}
