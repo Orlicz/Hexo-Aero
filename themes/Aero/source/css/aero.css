@@ -65,6 +65,10 @@ body::after {
     padding: 20px;
     backdrop-filter: blur(25px);
 }
+.aero-box :hover {
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .2s ease-in-out;
+}
 
 .aero-box h1 {
     margin: 0;
@@ -98,4 +102,8 @@ body::after {
     padding: 0;
     box-sizing: border-box;
     right: 20px;
+}
+
+.aero-box pre{
+    border-radius: 4px;
 }
