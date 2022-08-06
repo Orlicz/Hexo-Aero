@@ -67,7 +67,7 @@ body::after {
     transition: box-shadow .2s ease-in-out;
 }
 .aero-box:hover{
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
 }
 .aero-box h1 {
     margin: 0;
