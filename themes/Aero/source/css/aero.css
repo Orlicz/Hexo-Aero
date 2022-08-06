@@ -65,7 +65,10 @@ body::after {
     padding: 20px;
     backdrop-filter: blur(25px);
 }
-
+.aero-box:hover{
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .2s ease-in-out;
+}
 .aero-box h1 {
     margin: 0;
     padding: 0;
@@ -73,6 +76,10 @@ body::after {
     box-sizing: border-box;
     color: #fff;
     margin-bottom: 20px;
+}
+.aero-box h1:hover{
+    letter-spacing: 2px;
+    transition: letter-spacing .4s ease-in;
 }
 
 .aero-box .aero-rank {
@@ -104,7 +111,26 @@ body::after {
 .aero-box pre code.hljs{
     border-radius: 4px;
 }
-.aero-box pre :hover{
+.aero-box pre:hover{
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     transition: all .2s ease-in-out;
 }
+.aero-box a{
+    text-decoration:none;
+}
+.aero-box a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 200px;
+    transform: scaleX(0);
+    transform-origin: right;
+    bottom: 0;
+    height: 2px;
+    background: hotpink;
+    transition: transform .5s cubic-bezier(0.93, 0.07, 0.17, 1);
+}  
+.aero-box a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
