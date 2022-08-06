@@ -1,9 +1,9 @@
 <% site.posts.forEach(function(post){ %>
-    <div class="aero-box">
-      <h3>
-        <a href="/<%- post.path %>">
-          <%- post.title %>
-        </a>
-      </h3>
-    </div>
-  <% }); %>
+  <div class="aero-box">
+    <a href="/<%- post.path %>">
+      <h1>
+        <%- post.title %>
+      </h1>
+    </a>
+  </div>
+<% }); %>

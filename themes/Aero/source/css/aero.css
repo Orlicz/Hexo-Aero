@@ -66,7 +66,7 @@ body::after {
     backdrop-filter: blur(25px);
 }
 
-.aero-box h3 {
+.aero-box h1 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
