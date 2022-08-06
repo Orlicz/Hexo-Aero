@@ -50,7 +50,7 @@ body::after {
 }
 
 .aero-box {
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
     position: relative;
     min-width: 350px;
