@@ -17,11 +17,11 @@ body::before {
     z-index: -1;
     content: '';
     position: fixed;
-    width: 400px;
-    height: 400px;
+    width: 40v;
+    height: 40v;
     background: linear-gradient(#ffc107, #e91e63);
     border-radius: 50%;
-    transform: translate(-250px, -120px);
+    transform: translate(-25vh, -10vh);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
     animation: pulse 1.5s infinite;
 }
@@ -30,11 +30,11 @@ body::after {
     z-index: -1;
     content: '';
     position: fixed;
-    width: 350px;
-    height: 350px;
+    width: 35vh;
+    height: 35vh;
     background: linear-gradient(#2196f3, #31ff38);
     border-radius: 50%;
-    transform: translate(250px, 150px);
+    transform: translate(25vh, 15vh);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
     animation: pulse 1.6s infinite;
 }
