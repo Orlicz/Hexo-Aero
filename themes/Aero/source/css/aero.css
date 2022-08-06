@@ -119,6 +119,7 @@ body::after {
 }
 .aero-box a{
     text-decoration:none;
+    position: relative;
 }
 .aero-box a::before {
     content: " ";
@@ -131,7 +132,7 @@ body::after {
     backface-visibility: hidden;
     transform: scaleX(0);
     transform-origin: right;
-    background: hotpink;
+    background: #258fb8;
     transition: transform .5s cubic-bezier(0.93, 0.07, 0.17, 1);
 }  
 .aero-box a:hover::before {
